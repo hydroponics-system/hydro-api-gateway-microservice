@@ -1,2 +1,4 @@
 security:
+  allowed:
+    domains: "*"
   signing-key: "test-local-key"
