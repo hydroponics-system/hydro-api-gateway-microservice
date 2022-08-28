@@ -51,7 +51,12 @@ dependencies {
 	testImplementation "com.github.hydroponics-system:hydro-test-microservice:v${hydro_test_microservice}"
 }
 
+bootJar {
+   enabled = false
+}
+
 jar {
+   enabled = true
    archiveClassifier = ''
 }
 
