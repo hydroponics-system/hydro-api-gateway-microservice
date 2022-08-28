@@ -1,7 +1,6 @@
-# Hydroponics Common [![](https://jitpack.io/v/hydroponics-system/hydro-api-gateway-microservice.svg)](https://jitpack.io/#hydroponics-system/hydro-api-gateway-microservice)
+# Hydroponics API Gateway Microservice [![](https://jitpack.io/v/hydroponics-system/hydro-api-gateway-microservice.svg)](https://jitpack.io/#hydroponics-system/hydro-api-gateway-microservice)
 
-
-- Common backend library for housing functionality that can be used anywhere. This will then be imported into the hydro-api-microservice to be used.
+- Microservice that will be the firewall for incoming apis into the application. It will check with the contained interceptors that the request is valid and allowed to pass through.
 
 <!-- ACKNOWLEDGEMENTS -->
 
