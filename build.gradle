@@ -20,6 +20,7 @@ plugins {
 }
 
 group = 'com.hydro.api.gateway'
+sourceSets.test.resources.srcDir "src/test/resources"
 
 repositories {
 	mavenCentral()
@@ -59,5 +60,3 @@ jar {
    enabled = true
    archiveClassifier = ''
 }
-
-sourceSets.test.resources.srcDir "src/test/resources"
