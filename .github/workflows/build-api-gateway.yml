@@ -1,6 +1,6 @@
 # Workflow that will build the master branch on pushs and pull request.
 
-name: Build Production
+name: API Gateway Library Build
 
 on:
   push:
