@@ -12,4 +12,4 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  */
 @SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
 @ServletComponentScan
-public class HydroApiGatewaySetup {}
+public class HydroApiGatewayLibrary {}
