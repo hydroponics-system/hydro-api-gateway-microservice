@@ -1,4 +1,4 @@
-# Workflow that will build the master branch on pushs and pull request.fake
+# Workflow that will build the master branch on pushs and pull request.
 
 name: Build Production
 
