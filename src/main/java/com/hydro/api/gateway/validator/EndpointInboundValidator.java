@@ -49,7 +49,7 @@ public class EndpointInboundValidator extends CommonTokenValidator {
         List<AntPathRequestMatcher> matchers = new ArrayList<>();
         matchers.add(new AntPathRequestMatcher("/api/authenticate", "POST"));
         matchers.add(new AntPathRequestMatcher("/api/system-app/authenticate", "POST"));
-        matchers.add(new AntPathRequestMatcher("/api/system-app/api/system-app/system/register", "POST"));
+        matchers.add(new AntPathRequestMatcher("/api/system-app/system/register", "POST"));
         matchers.add(new AntPathRequestMatcher("/api/user-app/profile/check-email", "GET"));
         matchers.add(new AntPathRequestMatcher("/api/user-app/profile", "POST"));
         matchers.add(new AntPathRequestMatcher("/**", "OPTIONS"));
